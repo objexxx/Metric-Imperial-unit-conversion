@@ -1,0 +1,96 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    font-size: 22px;
+    color: white;
+}
+
+p {
+    padding: 5px 0 5px 0;
+    font-weight: 600;
+    text-align: center;
+    color: #fff;
+}
+
+/* TOP PART */
+
+.converstion {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 550px;
+    height: 260px;
+    background: linear-gradient(246.26deg, #585DFE 0%, #FB3796 100%);
+}
+
+/* TOP PART INPUT NUMBER*/
+
+.input__text {
+    display: flex;
+    align-self: center;
+    text-align: center;
+    height: 50%;
+    width: 100%;
+    font-size: 97px;
+    font-weight: 700;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #fff;
+    cursor: auto;
+}
+
+::placeholder {
+    color: #fff;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.calculate-Btn {
+    align-self: center;
+    width: 128px;
+    height: 38px;
+    font-weight: 600;
+    color: #fff;
+    background-color: #1F2937;
+    border-radius: 4px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+.calculate-Btn:active {
+    box-shadow: 7px 6px 1px rgba(0, 0, 0, 0.17);
+}
+
+/* BOTTOM PART, converstion rates answers */
+
+.converstion__rates {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 550px;
+    height: 290px;
+    background-color: #1F2937;
+}
+
+.length {
+    color: #D2D2D2;
+}
+
+.length__answers {
+    font-weight: 400;
+}
